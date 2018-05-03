@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>软蚁短网址系统 - Power By UrlToShort</title>
+    <meta name="keywords" content="UTS,UrlToShort,软蚁短网址系统,Jiuone,Jiuone.CN" />
+    <meta name="author" content="Jiuone.CN " />
+    <meta name="description" content="UrlToShort - 软蚁短网址系统" />
+    <link rel="stylesheet" href="CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+</head>
+
+<body class="index">
+    <div class="title">
+        <h1 class="text-center text-info"><b>软蚁短网址系统</b></h1>
+    </div>
+    <div class="col-sm-2 hidden-xs"></div>
+    <div class="col-sm-8 col-xs-12 main">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h3 class="panel-title">缩短网址</h3>
+            </div>
+            <div class="panel-body">
+                <br>
+                <div class="form-horizontal">
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">源地址：</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" id="old_url" placeholder="在这里输入长网址...">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputPassword3" class="col-sm-2 control-label">短网址：</label>
+                        <div class="col-sm-9">
+                            <div class="input-group">
+                                <div class="input-group-addon">Http://@Request.Url.Host.ToString()/</div>
+                                <input type="text" class="form-control" id="new_url" placeholder="自定义地址(可以省略)">
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">提示语：</label>
+                        <div class="col-sm-9">
+                            <div class="well well-sm" id="tip_long">暂无任何提示！</div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <button type="button" class="btn btn-default" id="btn_toshort">立即生成</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h3 class="panel-title">还原网址</h3>
+            </div>
+            <div class="panel-body">
+                <br>
+                <div class="form-horizontal">
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">短网址：</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" id="short_url" placeholder="在这里输入短网址...">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">提示语：</label>
+                        <div class="col-sm-9">
+                            <div class="well well-sm" id="tip_short" style="word-wrap: break-word;">暂无任何提示！</div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <button type="button" class="btn btn-default" id="btn_tolong">立即还原</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-2 hidden"></div>
+    <div class="foot">
+        <br />
+        <p class="text-center">
+            软蚁短网址系统 &copy; 2018 Power By
+				<a href="http://www.jiuone.cn/" target="_blank">SoftAnts</a> UrlToShort
+        </p>
+    </div>
+    <script type="text/javascript" src="Script/jquery.min.js"></script>
+    <script type="text/javascript" src="Script/script.js"></script>
+</body>
+
+</html>

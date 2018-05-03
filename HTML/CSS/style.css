@@ -1,0 +1,19 @@
+.index,.login,.mamager .title{
+	padding:30px 0px;
+}
+
+.index,.login,.mamager .foot{
+	clear: both;
+	font-size: 15px;
+	padding: 0px 15x;
+	}
+
+.login .main{
+	width: 350px;
+	margin: auto;
+	padding: 30px 0px;
+}
+
+.manager .main table{
+	margin: 0px 5px;
+}

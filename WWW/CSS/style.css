@@ -1,0 +1,19 @@
+.title{
+	padding:30px 0px;
+}
+
+.foot{
+	clear: both;
+	font-size: 15px;
+	padding: 0px 15px;
+	}
+
+.login .main{
+	width: 350px;
+	margin: auto;
+	padding: 30px 0px;
+}
+
+.manager .main table{
+	margin: 0px 5px;
+}
