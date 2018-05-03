@@ -5,6 +5,7 @@
 * Visual Studio 2012   
 * Asp.Net MVC 4  
 * .NET Framework 4.0  
+* BootStrap
 * SQLite 3 
 * Win 10
 
